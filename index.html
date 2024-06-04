@@ -9,113 +9,214 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="header-search">
-                <input class="search-bar">
+            <div class="header-top">
+                <label class="icon-line">
+                    <img src="images/icons/search.svg">
+                    <input class="search-bar" name="search-query">
+                </label>
+                <div class="header-profile icon-line">
+                    <img src="images/icons/bell.svg">
+                    <div class="icon-line">
+                        <img src="images/profile-icons/picture.png" class="picture-round" width="34px">
+                        <div class="text-black text-title">Morgan Oakley</div>
+                    </div>
+                </div>
             </div>
-            <div class="header-profile">
-                <div class="text-black text-name">Morgan Oakley</div>
-            </div>
-            <div class="header-welcome">
-                <div class="text-black text-welcome">Hi there,</div>
-                <div class="text-black text-name-big">Morgan Oakley (@morgan)</div>
-            </div>
-            <div class="header-action">
-                <button class="action-btn">New</button>
-                <button class="action-btn">Upload</button>
-                <button class="action-btn">Share</button>
+            <div class="header-bottom">
+                <img src="images/profile-icons/picture.png" class="picture-round" width="64px">
+                <div>
+                    <div class="text-black text-small">Hi there,</div>
+                    <div class="text-black text-hero">Morgan Oakley (@morgan)</div>
+                </div>
+                <div class="header-action">
+                    <button class="action-btn">New</button>
+                    <button class="action-btn">Upload</button>
+                    <button class="action-btn">Share</button>
+                </div>
             </div>
         </div>
         <div class="sidebar">
-            <div class="title">
-                <h1>Dashboard</h1>
+            <div class="icon-line">
+                <img src="images/icons/logo.svg" class="logo-icon">
+                <h1 class="title">Dashboard</h1>
             </div>
             <ul class="nav">
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <li>
+                    <a href="#" class="icon-line">
+                        <img src="images/icons/home.svg">Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-line">
+                        <img src="images/icons/user-profile.svg">Profile
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-line">
+                        <img src="images/icons/message.svg">Messages
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-line">
+                        <img src="images/icons/history.svg">History 
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-line">
+                        <img src="images/icons/task.svg">Tasks  
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-line">
+                        <img src="images/icons/group.svg">Communities   
+                    </a>
+                </li>
             </ul>
             <ul class="nav">
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li>
+                    <a href="#" class="icon-line">
+                        <img src="images/icons/settings-gear.svg">Settings
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-line">
+                        <img src="images/icons/support.svg">Support
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-line">
+                        <img src="images/icons/user-privacy.svg">Privacy
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="content">
-            <div class="project-container">
-                <div class="text-black text-name">Your Projects</div>
+            <div class="main-container">
+                <div class="text-black text-title">Your Projects</div>
                 <div class="my-projects">
                     <div class="project">
-                        <div class="project-info">
-                            <h1>Super Cool Project</h1>
-                            <p>
-                                Sed tempus ut lacus ut scelerisque.
-                                Suspendisse sollicitudin nibh erat, id
-                                facilisis felis accumsan nec.
-                            </p>
+                        <h1 class="text-title">Super Cool Project</h1>
+                        <p>
+                            Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicitudin nibh erat, id
+                            facilisis felis accumsan nec.
+                        </p>
+                        <div class="project-actions">
+                            <a href="#" title="Favorite this project">
+                                <img src="images/icons/project-favorite.svg">
+                            </a>
+                            <a href="#" title="Watch this project">
+                                <img src="images/icons/project-watch.svg">
+                            </a>
+                            <a href="#" title="Fork this project" class="test">
+                                <img src="images/icons/project-fork.svg">
+                            </a>
                         </div>
                     </div>
                     <div class="project">
-                        <div class="project-info">
-                            <h1>Super Cool Project</h1>
-                            <p>
-                                Sed tempus ut lacus ut scelerisque.
-                                Suspendisse sollicitudin nibh erat, id
-                                facilisis felis accumsan nec.
-                            </p>
+                        <h1 class="text-title">Super Cool Project</h1>
+                        <p>
+                            Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicitudin nibh erat, id
+                            facilisis felis accumsan nec.
+                        </p>
+                        <div class="project-actions">
+                            <a href="#" title="Favorite this project">
+                                <img src="images/icons/project-favorite.svg">
+                            </a>
+                            <a href="#" title="Watch this project">
+                                <img src="images/icons/project-watch.svg">
+                            </a>
+                            <a href="#" title="Fork this project" class="test">
+                                <img src="images/icons/project-fork.svg">
+                            </a>
                         </div>
                     </div>
                     <div class="project">
-                        <div class="project-info">
-                            <h1>Super Cool Project</h1>
-                            <p>
-                                Sed tempus ut lacus ut scelerisque.
-                                Suspendisse sollicitudin nibh erat, id
-                                facilisis felis accumsan nec.
-                            </p>
+                        <h1 class="text-title">Super Cool Project</h1>
+                        <p>
+                            Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicitudin nibh erat, id
+                            facilisis felis accumsan nec.
+                        </p>
+                        <div class="project-actions">
+                            <a href="#" title="Favorite this project">
+                                <img src="images/icons/project-favorite.svg">
+                            </a>
+                            <a href="#" title="Watch this project">
+                                <img src="images/icons/project-watch.svg">
+                            </a>
+                            <a href="#" title="Fork this project" class="test">
+                                <img src="images/icons/project-fork.svg">
+                            </a>
                         </div>
                     </div>
                     <div class="project">
-                        <div class="project-info">
-                            <h1>Super Cool Project</h1>
-                            <p>
-                                Sed tempus ut lacus ut scelerisque.
-                                Suspendisse sollicitudin nibh erat, id
-                                facilisis felis accumsan nec.
-                            </p>
+                        <h1 class="text-title">Super Cool Project</h1>
+                        <p>
+                            Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicitudin nibh erat, id
+                            facilisis felis accumsan nec.
+                        </p>
+                        <div class="project-actions">
+                            <a href="#" title="Favorite this project">
+                                <img src="images/icons/project-favorite.svg">
+                            </a>
+                            <a href="#" title="Watch this project">
+                                <img src="images/icons/project-watch.svg">
+                            </a>
+                            <a href="#" title="Fork this project" class="test">
+                                <img src="images/icons/project-fork.svg">
+                            </a>
                         </div>
                     </div>
                     <div class="project">
-                        <div class="project-info">
-                            <h1>Super Cool Project</h1>
-                            <p>
-                                Sed tempus ut lacus ut scelerisque.
-                                Suspendisse sollicitudin nibh erat, id
-                                facilisis felis accumsan nec.
-                            </p>
+                        <h1 class="text-title">Super Cool Project</h1>
+                        <p>
+                            Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicitudin nibh erat, id
+                            facilisis felis accumsan nec.
+                        </p>
+                        <div class="project-actions">
+                            <a href="#" title="Favorite this project">
+                                <img src="images/icons/project-favorite.svg">
+                            </a>
+                            <a href="#" title="Watch this project">
+                                <img src="images/icons/project-watch.svg">
+                            </a>
+                            <a href="#" title="Fork this project" class="test">
+                                <img src="images/icons/project-fork.svg">
+                            </a>
                         </div>
                     </div>
                     <div class="project">
-                        <div class="project-info">
-                            <h1>Super Cool Project</h1>
-                            <p>
-                                Sed tempus ut lacus ut scelerisque.
-                                Suspendisse sollicitudin nibh erat, id
-                                facilisis felis accumsan nec.
-                            </p>
+                        <h1 class="text-title">Super Cool Project</h1>
+                        <p>
+                            Sed tempus ut lacus ut scelerisque.
+                            Suspendisse sollicitudin nibh erat, id
+                            facilisis felis accumsan nec.
+                        </p>
+                        <div class="project-actions">
+                            <a href="#" title="Favorite this project">
+                                <img src="images/icons/project-favorite.svg">
+                            </a>
+                            <a href="#" title="Watch this project">
+                                <img src="images/icons/project-watch.svg">
+                            </a>
+                            <a href="#" title="Fork this project" class="test">
+                                <img src="images/icons/project-fork.svg">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="aside-container">
                 <div class="announcements">
-                    <div class="text-black text-name">Announcements</div>
-                    <div class="notices">
+                    <div class="text-black text-title">Announcements</div>
+                    <div class="aside-box">
                         <div>
                             <h2>Site Maintenance</h2>
-                            <p class="text-notices">
+                            <p class="text-very-small">
                                 Vestibulum condimentum tellus lacus,
                                 in accumsan elit maximus ac. Donec
                                 hendredit sodales congue...
@@ -124,7 +225,7 @@
                         <div class="notice-separator"></div>
                         <div>
                             <h2>Site Maintenance</h2>
-                            <p class="text-notices">
+                            <p class="text-very-small">
                                 Vestibulum condimentum tellus lacus,
                                 in accumsan elit maximus ac. Donec
                                 hendredit sodales congue...
@@ -133,7 +234,7 @@
                         <div class="notice-separator"></div>
                         <div>
                             <h2>Site Maintenance</h2>
-                            <p class="text-notices">
+                            <p class="text-very-small">
                                 Vestibulum condimentum tellus lacus,
                                 in accumsan elit maximus ac. Donec
                                 hendredit sodales congue...
@@ -141,9 +242,38 @@
                         </div>
                     </div>
                 </div>
-                <div class="trending-container">
-                    <div class="text-black text-name">Trending</div>
-                    <div class="trending-content"></div>
+                <div class="trending">
+                    <div class="text-black text-title">Trending</div>
+                    <div class="aside-box">
+                        <div class="trending-content">
+                            <img src="images/profile-icons/picture.png" class="picture-round" width="38px">
+                            <div>
+                                <div>@tegan</div>
+                                <div class="trending-desc">World Peace Builder</div>
+                            </div>
+                        </div>
+                        <div class="trending-content">
+                            <img src="images/profile-icons/picture.png" class="picture-round" width="38px">
+                            <div>
+                                <div>@tegan</div>
+                                <div class="trending-desc">World Peace Builder</div>
+                            </div>
+                        </div>
+                        <div class="trending-content">
+                            <img src="images/profile-icons/picture.png" class="picture-round" width="38px">
+                            <div>
+                                <div>@tegan</div>
+                                <div class="trending-desc">World Peace Builder</div>
+                            </div>
+                        </div>
+                        <div class="trending-content">
+                            <img src="images/profile-icons/picture.png" class="picture-round" width="38px">
+                            <div>
+                                <div>@tegan</div>
+                                <div class="trending-desc">World Peace Builder</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
